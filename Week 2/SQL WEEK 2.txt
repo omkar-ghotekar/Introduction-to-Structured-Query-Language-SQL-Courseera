@@ -1,0 +1,34 @@
+Following are the programmatic commands which users need to copy paste in their localhost
+i.e maybe wamp for windows, xampp for windows or mamp for ios.
+
+CREATE TABLE Ages ( 
+  name VARCHAR(128), 
+  age INTEGER
+)
+
+
+
+DELETE FROM Ages;
+
+
+INSERT INTO Ages (name, age) VALUES ('Zahra', 34);
+INSERT INTO Ages (name, age) VALUES ('Olufunke', 23);
+INSERT INTO Ages (name, age) VALUES ('Choire', 38);
+INSERT INTO Ages (name, age) VALUES ('Makenna', 32);
+INSERT INTO Ages (name, age) VALUES ('Ula', 16);
+INSERT INTO Ages (name, age) VALUES ('Garren', 40);
+
+
+
+SELECT sha1(CONCAT(name,age)) AS X FROM Ages ORDER BY X
+
+
+
+An output will be obtained in your localhost like some encoded digits like:-
+
+254c6127cdbc4c38e065317667340e8b0950046f
+and many more rows.
+
+Copy paste the first like of code i.e 254c6127cdbc4c38e065317667340e8b0950046f into the given status bar of the external graded tools.
+
+Then you would get all the answers correctly.
